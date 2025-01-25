@@ -1,0 +1,34 @@
+---
+title: Intro OCaml Exercises
+uuid: 7d22cc6b-de84-373c-edc4-b26f9cbac729
+---
+
+Exercises to get started with OCaml syntax. We will go through these together as a group,
+so don't worry if you run into problems to start!
+
+# Getting Started
+
+First, let's start by compiling the existing code. Once you're in the
+intro-to-ocaml directory, you can run the following to compile your code:
+
+` $ dune build `
+
+This command will make dune build the default targets for this directory
+
+You can also run dune in polling mode, which will watch your
+filesystem for any changes and rebuild when necessary. To do this, run
+the following (probably in its own terminal):
+
+` $ dune build -w `
+
+OCaml code can be autoformatted using ocamlformat. To format your code, run
+
+` $ dune fmt `
+
+If you're using VSCode, you can configure your editor to automatically save and
+format your code periodically. Otherwise, you might want to run the above command
+periodically to manually format your code.
+
+Each exercise has its own tests. To run the tests for exercise number N, run
+
+` $ dune runtest tests/exerciseN `
