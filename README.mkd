@@ -1,8 +1,3 @@
----
-title: Intro OCaml Exercises
-uuid: 7d22cc6b-de84-373c-edc4-b26f9cbac729
----
-
 Exercises to get started with OCaml syntax. We will go through these together as a group,
 so don't worry if you run into problems to start!
 
